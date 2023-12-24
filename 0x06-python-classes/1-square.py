@@ -1,17 +1,15 @@
 #!/usr/bin/python3
-class Square:
-    """Defines the blueprint of a square.
 
-    Attribute:
-        size: An integer indicating the size of the square object.
-    """
+"""Define a class Square."""
+
+
+class Square:
+    """Represent a square."""
 
     def __init__(self, size):
-        """An object constructor method.
+        """Initialize a new Square.
 
-        Initiatilizes Square with size.
-
-        Arg:
-            size: A integer representing object size
+        Args:
+            size (int): The size of the new square.
         """
         self.__size = size
